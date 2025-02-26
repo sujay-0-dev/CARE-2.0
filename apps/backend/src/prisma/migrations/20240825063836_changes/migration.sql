@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE "OTP" ALTER COLUMN "expiresAt" SET DEFAULT CURRENT_TIMESTAMP + interval '10 minutes';
+
+-- AlterTable
+ALTER TABLE "WastePosts" ADD COLUMN     "lat" DOUBLE PRECISION,
+ADD COLUMN     "long" DOUBLE PRECISION;
