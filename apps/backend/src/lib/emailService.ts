@@ -29,7 +29,7 @@ export const sendEmail = async (userId: string) => {
     if (!user) throw new Error("User not found");
     console.log(user.email);
     const mailOptions = {
-      from: "puskarroy300@gmail.com",
+      from: "bongbeast95@gmail.com",
       to: user.email,
       subject: "Please Verify Your Email Address",
       html: `
@@ -173,13 +173,13 @@ export const sendEmail = async (userId: string) => {
         >
           Need help? Contact us at
           <a
-            href="mailto:puskarroy300@gmail.com"
+            href="mailto:/"
             style="color: #499fb6; text-decoration: none;"
-            >puskarroy300@gmail.com</a
+            >/</a
           >
           or visit our
           <a
-            href="https://www.puskarroy.in"
+            href="/"
             target="_blank"
             style="color: #499fb6; text-decoration: none;"
             >Help Center</a
@@ -255,7 +255,7 @@ export const sendEmail = async (userId: string) => {
           /></a>
         </div>
         <p style="margin: 0; margin-top: 16px; color: #434343;">
-          Copyright © 2024 Bug_Busters. All rights reserved.
+          Copyright © 2025 Shuvadeep Mondal. All rights reserved.
         </p>
       </footer>
     </div>

@@ -12,5 +12,5 @@ export const config = {
   EMAIL: process.env.EMAIL,
   PASSWORD: process.env.PASSWORD,
   EMAIL_SERVICE: process.env.EMAIL_SERVICE,
-  FRONTENDURL:"https://care-nine.vercel.app",
+  FRONTENDURL:"http://localhost:5173/",
 };

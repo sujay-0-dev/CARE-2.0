@@ -1,7 +1,7 @@
 import express, { Router } from "express";
 import {
   getJobPosts,
-  getJobPost,
+  // getJobPost,
   createJobPost,
   updateJobPost,
   deleteJobPost,
@@ -10,7 +10,7 @@ import {
 const router: Router = express.Router();
 
 router.get("/", getJobPosts);
-router.get("/:id", getJobPost);
+// router.get("/:id", getJobPost);
 router.post("/", createJobPost);
 router.put("/:id", updateJobPost);
 router.delete("/:id", deleteJobPost);
