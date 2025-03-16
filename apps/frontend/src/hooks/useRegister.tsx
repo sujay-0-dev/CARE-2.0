@@ -15,7 +15,7 @@ export const useRegister = () => {
     setError(false);
     try {
       await axios.post(
-        `${import.meta.env.VITE_API}/api/v0.1/auth/register`,
+        `http://localhost:5050/api/v0.1/auth/register`,
         {
           name,
           email,

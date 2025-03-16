@@ -14,7 +14,7 @@ export const useLogin = () => {
     setError(false);
     try {
       await axios.post(
-        `${import.meta.env.VITE_API}/api/v0.1/auth/login`,
+        `http://localhost:5050/api/v0.1/auth/login`,
         {
           email,
           password,

@@ -17,7 +17,7 @@ export const useVerifyLogin = () => {
 
     try {
       const response = await axios.get(
-        `${import.meta.env.VITE_API}/api/v0.1/auth/verify-otp/${email}?token=${otp}`
+        `http://localhost:5050/api/v0.1/auth/verify-otp/${email}?token=${otp}`
       );
 
       const userData = response.data;

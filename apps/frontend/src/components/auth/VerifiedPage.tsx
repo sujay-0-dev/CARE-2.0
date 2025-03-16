@@ -21,7 +21,7 @@ export default function VerifiedPage() {
   const fetchProfile = async () => {
     setLoading(true);
     try {
-      const response = await axios.get(`${import.meta.env.VITE_API}/api/v0.1/auth/verify-email/${userId}/?token=${token}`);
+      const response = await axios.get(`http://localhost:5050/api/v0.1/auth/verify-email/${userId}/?token=${token}`);
       console.log(response.data);
       setVerifyEmail(true);
     } catch (error) {
